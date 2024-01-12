@@ -13,10 +13,8 @@ export class HomePage implements OnInit {
   utilsSvc = inject(UtilsService);
 
   products: Product[] = [
-    {id:"1", name: "smart tv", image:"", price: 1000000, soldUnits: 2},
-    {id:"2", name: "", image: "", price: 1000000, soldUnits: 2},
-    {id:"3", name: "", image: "", price: 1000000, soldUnits: 2},
     
+  
   ];
 
   constructor() { }
